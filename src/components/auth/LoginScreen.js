@@ -18,7 +18,6 @@ export const LoginScreen = () => {
                     placeholder='Password'
                     name='password'
                     className='auth__input'
-                    autoComplete='off'
                 />
                 <button
                     type='submit'
@@ -39,7 +38,10 @@ export const LoginScreen = () => {
                         </p>
                     </div>
                 </div>
-                <Link to='/auth/register'>
+                <Link
+                    className='link'
+                    to='/auth/register'
+                >
                     Create new account
                 </Link>
             </form>
