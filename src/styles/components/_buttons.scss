@@ -3,11 +3,17 @@
     border: none;
     color: #fff;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 14px;
     padding: 7px 10px 7px 10px;
+
+    transition: color .3s ease;
 
     &:focus{
         outline: none;
+    }
+
+    &:hover{
+        color: darken($color: #fff, $amount: 20);
     }
     
 }
